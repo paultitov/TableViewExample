@@ -14,6 +14,7 @@
 		5071B905207BC35300F174A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5071B903207BC35300F174A5 /* LaunchScreen.storyboard */; };
 		5071B908207BC35300F174A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5071B907207BC35300F174A5 /* main.m */; };
 		DA06F67C20817934006218D4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA06F67B20817934006218D4 /* DetailViewController.m */; };
+		DA06F67F2081891C006218D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA06F67E2081891C006218D4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		5071B907207BC35300F174A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA06F67A20817934006218D4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		DA06F67B20817934006218D4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DA06F67E2081891C006218D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA06F67F2081891C006218D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +50,7 @@
 			children = (
 				5071B8F7207BC35200F174A5 /* TableViewExample */,
 				5071B8F6207BC35200F174A5 /* Products */,
+				DA06F67D2081891C006218D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +78,14 @@
 				5071B907207BC35300F174A5 /* main.m */,
 			);
 			path = TableViewExample;
+			sourceTree = "<group>";
+		};
+		DA06F67D2081891C006218D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA06F67E2081891C006218D4 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
